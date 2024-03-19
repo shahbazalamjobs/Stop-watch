@@ -1,0 +1,71 @@
+/* Reset default margin */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Container for the app */
+.App {
+  width: 400px;
+  margin: 40px auto;
+  padding: 20px 40px;
+  background-color: #f7f7f7;
+  /* Added background color for better contrast */
+  border-radius: 10px;
+  /* Rounded corners for aesthetics */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* Drop shadow for depth */
+}
+
+/* Title styles */
+.App h1 {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 1.5em;
+  /* Slightly smaller font size for better hierarchy */
+  color: #333;
+  /* Darker text color for better readability */
+}
+
+/* Stopwatch container */
+.stopwatch {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Stopwatch display styles */
+.stopwatch h1 {
+  font-size: 3em;
+  color: #333;
+  /* Darker text color for better contrast */
+}
+
+/* Button container styles */
+.buttons {
+  margin-top: 20px;
+}
+
+/* Button styles */
+.buttons button {
+  font-size: 1.5em;
+  margin: 0 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #007bff;
+  /* Blue button color */
+  color: #fff;
+  /* White text color */
+  border: none;
+  border-radius: 5px;
+  /* Rounded corners for aesthetics */
+  transition: background-color 0.3s ease;
+  /* Smooth transition on hover */
+}
+
+/* Button hover styles */
+.buttons button:hover {
+  background-color: #0056b3;
+  /* Darker blue on hover */
+}
